@@ -3,7 +3,7 @@ import logging
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from config import config
-from flask_wtf.csrf import CSRFProtect
+from flask_wtf.csrf import CSRFProtect, generate_csrf
 from flask_session import Session
 from logging.handlers import RotatingFileHandler
 
@@ -40,9 +40,25 @@ def create_app(config_name):
     CSRFProtect(app)
     # 设置session保存位置
     Session(app)
+
+    @app.after_request
+    def after_request(response):
+        # 调用函数生成csrf_token
+        csrf_token = generate_csrf()
+        # 通过cookie将值传给前端
+        response.set_cookie('csrf_token', csrf_token)
+        return response
+
     from info.module.index import index_blu
     app.register_blueprint(index_blu)
+    from info.module.passport import passport_blu
+    app.register_blueprint(passport_blu)
+    from info.utils.common import do_index_class
+    # 添加自定义过滤器
+    app.add_template_filter(do_index_class, 'index_class')
     return app
+
+
 
 
 

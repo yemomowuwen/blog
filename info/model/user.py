@@ -35,7 +35,7 @@ class BlogCustomer(BaseModel, db.Model):
     qq_url = db.Column(db.String(128))  # QQurl
     keep = db.Column(db.String(128))  # 保留字段
     keep_url = db.Column(db.String(128)) # 保留url
-    collection_news = db.relationship('Article', secondary=tb_user_collection, lazy='dynamic')
+    collection_news = db.relationship('Articles', secondary=tb_user_collection, lazy='dynamic')
 
     def make_password_hash(self, password):
         # 将未加密的密码执行加密操作
@@ -66,9 +66,11 @@ class Articles(BaseModel, db.Model):
     digest = db.Column(db.String(512), nullable=False)  # 文章摘要
     content = db.Column(db.Text, nullable=False)  # 文章内容
     clicks = db.Column(db.Integer, default=0)  # 浏览量
+    tag = db.Column(db.String(64))  # 标签
     index_image_url = db.Column(db.String(256))  # 文章列表图片路径
     category_id = db.Column(db.Integer, db.ForeignKey('info_category.id'))  # 文章分类
     user_id = db.Column(db.Integer, db.ForeignKey('blog_customer.id'))  # 文章作者
+    recommend = db.Column(db.Integer, default=0)  # 推荐
     comments = db.relationship('Comment', lazy='dynamic')
 
 
@@ -106,6 +108,23 @@ class Carousels(BaseModel, db.Model):
     name = db.Column(db.String(64))  # 轮播图名字
     categ = db.Column(db.Integer, nullable=False)  # 种类
 
+
+class BlogAuthor(BaseModel, db.Model):
+    __tablename__ = 'info_author'
+
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(64))  # 博客标题
+    keywords = db.Column(db.String(64))  # 关键字
+    description = db.Column(db.String(256))  # 描述
+    wechat = db.Column(db.String(128))  # 微信
+    qq = db.Column(db.String(128))  # QQ
+    email = db.Column(db.String(128))  # 邮箱
+    Wechat_Reward = db.Column(db.String(128))  # 打赏
+    logo = db.Column(db.String(128))  # logo
+    avator_url = db.Column(db.String(128))  # 头像
+    name = db.Column(db.String(64))
+    tag = db.Column(db.String(64))
+    about_me = db.Column(db.String(256))  # 关于我
 
 
 
