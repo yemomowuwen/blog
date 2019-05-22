@@ -2,84 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7eeb9b0-0003-4765-a62b-84796df9747e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/info/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/info/model/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/module/index/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/info/module/index/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/css/m.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/gbook.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/5794.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/ad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/author2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/b01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/b02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/b03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/b04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/b05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/b06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/b07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/banner01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/banner02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/banner03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/bi01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/bi02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/bi03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/bi04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/bi05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/bi06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/blank.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/date.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/datepng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/jdbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/lanmbq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/mb01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/mb02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/mb03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/mb04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/mb05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/mb06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/mb07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/mb08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/navbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/navline.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/newsbg01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/newsbg02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/newsbg03 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/newsbg03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/newsbg04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/posttime.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/t01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/t02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/t03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/text01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/text02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/titlebg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/v1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/v2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/wx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/zd01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/zd02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/images/zd03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/js/jquery-2.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/js/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/js/nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info/status/share.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/info/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/static/js/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/info/static/js/list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/blog$manager.coverage" NAME="manager Coverage Results" MODIFIED="1556875941856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/blog$manager.coverage" NAME="manager Coverage Results" MODIFIED="1558249188614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -107,41 +34,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/info/static/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2912">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/info/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="102" column="6" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/info/static/js/list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="view.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/info/module/index/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+            <state relative-caret-position="2198">
+              <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -192,7 +101,6 @@
         <option value="$PROJECT_DIR$/info/model/base.py" />
         <option value="$PROJECT_DIR$/manager.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/info/status/__init__.py" />
         <option value="$PROJECT_DIR$/info/module/passport/__init__.py" />
         <option value="$PROJECT_DIR$/info/static/css/main.css" />
@@ -200,17 +108,19 @@
         <option value="$PROJECT_DIR$/info/static/js/main.js" />
         <option value="$PROJECT_DIR$/info/static/css/m.css" />
         <option value="$PROJECT_DIR$/info/module/passport/views.py" />
-        <option value="$PROJECT_DIR$/info/static/css/base.css" />
         <option value="$PROJECT_DIR$/info/utils/common.py" />
         <option value="$PROJECT_DIR$/info/__init__.py" />
         <option value="$PROJECT_DIR$/info/module/detail/views.py" />
         <option value="$PROJECT_DIR$/info/utils/constants.py" />
         <option value="$PROJECT_DIR$/info/model/user.py" />
         <option value="$PROJECT_DIR$/info/static/js/modernizr.js" />
-        <option value="$PROJECT_DIR$/info/templates/index.html" />
         <option value="$PROJECT_DIR$/info/module/index/view.py" />
         <option value="$PROJECT_DIR$/info/static/css/index.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/info/templates/index.html" />
+        <option value="$PROJECT_DIR$/info/static/css/base.css" />
         <option value="$PROJECT_DIR$/info/static/js/list.js" />
+        <option value="$PROJECT_DIR$/manage.py" />
       </list>
     </option>
   </component>
@@ -228,11 +138,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="526" />
-    <option name="y" value="27" />
-    <option name="width" value="1381" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="527" />
+    <option name="y" value="82" />
+    <option name="width" value="1213" />
+    <option name="height" value="890" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,11 +208,15 @@
               <item name="info" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,54 +299,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="526" y="27" width="1381" height="1032" extended-state="0" />
+    <frame x="0" y="34" width="1920" height="1046" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32769832" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32899868" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39800444" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3669623" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29574308" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32969284" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18214607" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32769832" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39800444" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899868" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32969284" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.71131337" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292683" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899868" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3969129" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3660419" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29499468" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32969284" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -452,6 +344,65 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/info/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5280">
+          <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12540">
+          <caret line="380" column="16" selection-start-line="380" selection-start-column="12" selection-end-line="380" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3399">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/module/index/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4059">
+          <caret line="127" column="35" lean-forward="true" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/utils/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/static/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/info/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9128">
@@ -501,9 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,27 +465,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/info/module/index/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -578,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,20 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/info/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="350" column="16" lean-forward="true" selection-start-line="350" selection-start-column="16" selection-end-line="350" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/info/module/passport/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,15 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info/static/images/pic_code.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info/static/images/person03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info/static/images/person02.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/info/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -674,19 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/info/module/detail/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info/module/detail/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info/utils/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -719,13 +615,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/static/js/jquery.form.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/info/static/js/nav.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -742,49 +632,71 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/static/js/jquery-2.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/utils/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3399">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12540">
+          <caret line="380" column="16" selection-start-line="380" selection-start-column="12" selection-end-line="380" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/static/js/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1484">
-          <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+        <state relative-caret-position="33">
+          <caret line="160" column="16" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/module/index/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        <state relative-caret-position="2198">
+          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/info/static/js/main.js">
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2912">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="102" column="6" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info/static/js/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="-66">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
         </state>
       </provider>
     </entry>

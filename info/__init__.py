@@ -6,6 +6,7 @@ from config import config
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 from flask_session import Session
 from logging.handlers import RotatingFileHandler
+from flask_restful import Api, Resource
 
 db = SQLAlchemy()
 redis_store = None  # type: StrictRedis

@@ -4,6 +4,7 @@ from info import create_app, db
 from info.model import user
 
 
+
 app = create_app('development')
 manager = Manager(app)
 Migrate(app, db)
