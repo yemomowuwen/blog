@@ -7294,3 +7294,37 @@ INFO _internal.py:122 127.0.0.1 - - [19/May/2019 15:04:26] "GET /articles_list?p
 INFO _internal.py:122 127.0.0.1 - - [19/May/2019 15:07:07] "GET /info?6 HTTP/1.1" 404 -
 INFO _internal.py:122 127.0.0.1 - - [19/May/2019 15:07:14] "GET /index HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [19/May/2019 15:07:15] "GET /articles_list?page=1&per_page=14 HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:56:59] "GET / HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:56:59] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:57:02] "GET / HTTP/1.1" 404 -
+ERROR view.py:32 No module named 'MySQLdb'
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:57:08] "GET /index HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:57:08] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:57:08] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:57:08] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:57:09] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 16:57:09] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/python/Desktop/ye/blog/config.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
+ERROR view.py:32 No module named 'MySQLdb'
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 17:02:14] "GET /index HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 17:02:14] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 17:02:14] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 17:02:14] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Jun/2019 17:02:14] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/python/Desktop/ye/blog/info/module/index/view.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
