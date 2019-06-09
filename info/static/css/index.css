@@ -195,7 +195,9 @@ h3.blogtitle {
 }
 
 .blogpic img {
-    width: 100%
+    /*width: 100%*/
+    width: 240px;
+    height: 160px;
 }
 
 .bloginfo p {

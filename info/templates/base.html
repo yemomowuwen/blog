@@ -1,0 +1,208 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>{% block titleBlock %}首页_{{ data.author.title }}{% endblock %}</title>
+<meta name="keywords" content="{{ data.author.keywords }}" />
+<meta name="description" content="{{ data.author.description }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../static/css/base.css" rel="stylesheet">
+<link href="../static/css/index.css" rel="stylesheet">
+<link href="../static/css/m.css" rel="stylesheet">
+<link href="../static/css/main.css" rel="stylesheet">
+<script type="text/javascript" src="../static/js/jquery.form.min.js"></script>
+<script type="text/javascript" src="../static/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../static/js/main.js"></script>
+{% block listjsBlock %}
+{% endblock %}
+
+
+<!--[if lt IE 9]>
+<script src="/js/modernizr.js"></script>
+<![endif]-->
+<script>
+window.onload = function ()
+{
+	var oH2 = document.getElementsByTagName("h2")[0];
+	var oUl = document.getElementsByTagName("ul")[0];
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script>
+</head>
+<body>
+<header>
+    <div class="tophead">
+    <div class="logo"><a href="/">{{ data.author.logo }}</a></div>
+    <div id="mnav">
+      <h2><span class="navicon"></span></h2>
+      <ul>
+        {% for category in data.categories %}
+            <li><a href="{{ loop.index | index_class }}">{{ category.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <nav class="topnav" id="topnav">
+      <ul>
+        {% for category in data.categories %}
+            <li><a href="{{ loop.index | index_class }}">{{ category.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="login">
+          {% if data.customer_info %}
+                <!-- 用户登录后显示下面，隐藏上面 -->
+              <div class="user_login fr">
+                <img src="{% if data.customer_info.avatar_url %}{{ data.customer_info.avatar_url }}{% else %}../../static/images/person01.png{% endif %}" class="lgin_pic">
+                <a href="#">{{ data.customer_info.nick_name }}</a>
+                <a href="javascript:;" onclick="login_out()">退出</a>
+              </div>
+          {% else %}
+              <div class="user_btns fr">
+                <a href="javascript:;" class="login_btn">登录</a> / <a href="javascript:;" class="register_btn">注册</a>
+              </div>
+          {% endif %}
+    </div>
+
+  </div>
+
+</header>
+
+{% block carouselBlock %}
+{% endblock %}
+
+<article>
+{% block indexBlock %}
+{% endblock %}
+  <div class="sidebar">
+    {% block aboutBlock %}
+    {% endblock %}
+    <div class="search">
+      <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+        <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
+        <input name="show" value="title" type="hidden">
+        <input name="tempid" value="1" type="hidden">
+        <input name="tbname" value="news" type="hidden">
+        <input name="Submit" class="input_submit" value="搜索" type="submit">
+      </form>
+    </div>
+    <div class="cloud">
+      <h2 class="hometitle">标签云</h2>
+      <ul>
+        <a href="/">陌上花开</a> <a href="/">校园生活</a> <a href="/">html5</a> <a href="/">SumSung</a> <a href="/">青春</a> <a href="/">温暖</a> <a href="/">阳光</a> <a href="/">三星</a><a href="/">索尼</a> <a href="/">华维荣耀</a> <a href="/">三星</a> <a href="/">索尼</a>
+      </ul>
+    </div>
+    <div class="paihang">
+      <h2 class="hometitle">点击排行</h2>
+      <ul>
+          {% for articles_dict in data.click_articles_list %}
+             <li><b><a href="/list/{{ articles_dict.id }}" target="_blank">{{ articles_dict.title }}</a></b>
+                <p><i><img src="{{ articles_dict.index_image_url }}"></i>{{ articles_dict.digest }}</p>
+             </li>
+          {% endfor %}
+      </ul>
+    </div>
+    <div class="paihang">
+      <h2 class="hometitle">站长推荐</h2>
+      <ul>
+          {% for r_articles_dict in data.recommend_articles_list %}
+             <li><b><a href="/list/{{ r_articles_dict.id }}" target="_blank">{{ r_articles_dict.title }}</a></b>
+                <p><i><img src="{{ r_articles_dict.index_image_url }}"></i>{{ r_articles_dict.digest }}</p>
+             </li>
+          {% endfor %}
+      </ul>
+    </div>
+    <div class="links">
+      <h2 class="hometitle">友情链接</h2>
+      <ul>
+        <li><a href="http://www.yangqq.com" title="杨青个人博客">杨青个人博客</a></li>
+        <li><a href="http://www.yangqq.com" title="杨青个人博客">杨青个人博客</a></li>
+        <li><a href="http://www.yangqq.com" title="杨青个人博客">杨青个人博客</a></li>
+      </ul>
+    </div>
+    <div class="weixin">
+      <h2 class="hometitle">官方微信</h2>
+      <ul>
+          <img src="{{ data.author.wechat }}">
+      </ul>
+      <h2 class="hometitle">官方QQ</h2>
+      <ul>
+        <img src="{{ data.author.qq }}">
+      </ul>
+      <h2 class="hometitle">官方邮箱</h2>
+      <h2 class="hometitle">{{ data.author.email }}</h2>
+    </div>
+  </div>
+</article>
+<div class="blank"></div>
+<footer>
+  <p>Design by <a href="/">{{ data.author.keywords }}</a> <a href="/">蜀ICP备11002373号-1</a></p>
+</footer>
+<script src="../static/js/nav.js"></script>
+<!-- 登录表单 -->
+<form class="login_form_con">
+    <div class="login_form">
+        <div class="login_title">
+            <h3>登 录</h3>
+            <a href="javascript:;" class="shutoff"></a>
+        </div>
+        <div class="form_group">
+            <input id="mobile" type="text" name="mobile" autocomplete="off">
+            <div class="input_tip">邮箱</div>
+            <div id="login-mobile-err" class="error_tip">手机号不能为空</div>
+        </div>
+        <div class="form_group">
+            <input id="password" type="password" name="password">
+            <div class="input_tip">密码(不少于6位)</div>
+            <div id="login-password-err" class="error_tip">密码不能为空</div>
+        </div>
+        <input type="submit" name="" value="登 录" class="input_sub">
+        <div class="down_link">还没有账号？<a href="javascript:;" class="to_register">立即注册</a></div>
+    </div>
+    <div class="mask"></div>
+</form>
+
+<!-- 注册表单 -->
+<form class="register_form_con">
+    <div class="register_form">
+        <div class="register_title">
+            <h3>注 册</h3>
+            <a href="javascript:;" class="shutoff"></a>
+        </div>
+        <div class="form_group">
+            <input type="text" name="mobile" autocomplete="off" id="register_mobile" class="phone_input">
+            <div class="input_tip">邮箱</div>
+            <div id="register-mobile-err" class="error_tip">邮箱不能为空</div>
+        </div>
+        <div class="form_group">
+            <input type="text" name="code_pwd" id="imagecode" class="code_pwd">
+            <div class="input_tip">图形验证码</div>
+            <img src="../static/images/pic_code.png" class="get_pic_code" onclick="generateImageCode()">
+            <div id="register-image-code-err" class="error_tip">图形码不能为空</div>
+        </div>
+        <div class="form_group">
+            <input type="text" name="smscode" id="smscode" class="code_pwd">
+            <div class="input_tip">邮箱验证码</div>
+            <a href="javascript:;" class="get_code" onclick="sendSMSCode()">点击获取验证码</a>
+            <div id="register-sms-code-err" class="error_tip">验证码不能为空</div>
+        </div>
+        <div class="form_group">
+            <input type="password" name="password" id="register_password" class="pass_input">
+            <div class="input_tip">密码(不少于6位)</div>
+            <div id="register-password-err" class="error_tip">密码不能为空</div>
+        </div>
+        <div  class="form_group2 clearfix">
+            <input type="checkbox" class="agree_input" checked>
+            <p>同意使用条款，并已阅读"跟帖评论自律管理承诺书"</p>
+            <div class="error_tip">请勾选</div>
+        </div>
+        <input type="submit" name="" value="注 册" class="input_sub">
+        <div class="down_link">已有账号？<a href="javascript:;" class="to_login">立即登录</a></div>
+    </div>
+    <div class="mask"></div>
+</form>
+</body>
+</html>
