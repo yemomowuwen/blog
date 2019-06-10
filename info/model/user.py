@@ -11,7 +11,7 @@ tb_user_collection = db.Table('info_user_collection',
 
 
 class BlogCustomer(BaseModel, db.Model):
-    """博主个人信息"""
+    """用户信息"""
     __tablename__ = 'blog_customer'
 
     id = db.Column(db.Integer, primary_key=True)  # id

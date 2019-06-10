@@ -28,10 +28,10 @@ function Articles_list() {
             for (var i=0; i<resp.articles_List.length;i++){
                     var articles = resp.articles_List[i]
                     var content = '<li>'
-                    content += '<span class="blogpic"><a href="/info?'+articles.id+'"><img src="'+articles.index_image_url+ '"></a></span>'
-                    content += '<h3 class="blogtitle"><a href="/info?'+articles.id+'">'+articles.title+'</a></h3>'
+                    content += '<span class="blogpic"><a href="/info/'+articles.id+'"><img src="'+articles.index_image_url+ '"></a></span>'
+                    content += '<h3 class="blogtitle"><a href="/info/'+articles.id+'">'+articles.title+'</a></h3>'
                     content += '<div class="bloginfo"><p>'+articles.digest+'</p> </div>'
-                    content += '<div class="autor"><span class="lm"><a href="/" title="'+articles.tag+'" target="_blank" class="classname">'+articles.tag+'</a></span><span class="dtime">'+articles.create_time+'</span><span class="viewnum">浏览(<a href="/">'+articles.clicks+'</a>)</span><span class="readmore"><a href="/info?'+articles.id+'">阅读原文</a></span></div>'
+                    content += '<div class="autor"><span class="lm"><a href="/" title="'+articles.tag+'" target="_blank" class="classname">'+articles.tag+'</a></span><span class="dtime">'+articles.create_time+'</span><span class="viewnum">浏览(<a href="/">'+articles.clicks+'</a>)</span><span class="readmore"><a href="/info/'+articles.id+'">阅读原文</a></span></div>'
                     content += '</li>'
                    $('.blogs').append(content)
             }

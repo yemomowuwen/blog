@@ -8043,3 +8043,89 @@ INFO _internal.py:122 127.0.0.1 - - [09/Jun/2019 21:15:53] "GET /static/images/n
 INFO _internal.py:122 127.0.0.1 - - [09/Jun/2019 21:16:18] "GET /index HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [09/Jun/2019 21:16:18] "GET /static/js/jquery.min.map HTTP/1.1" 404 -
 INFO _internal.py:122 127.0.0.1 - - [09/Jun/2019 21:16:18] "GET /articles_list?page=1&per_page=14 HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/css/base.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/css/index.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/css/m.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/js/jquery-2.1.1.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/js/list.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/js/nav.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/images/b01.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/images/b02.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/images/b03.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/images/b04.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/images/b05.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/images/person03.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /static/images/banner.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:38] "GET /articles_list?page=1&per_page=14 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:47] "GET /info/149 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:47] "GET /static/images/Wechat.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:45:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /info/149 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/bi01.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/bi02.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/bi03.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/bi04.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/bi05.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/bi06.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/QQ.jpg HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/date.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/author2.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/navbg.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/newsbg03.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:03] "GET /static/images/5794.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 21:58:58] "GET /info/info HTTP/1.1" 404 -
+INFO _internal.py:122  * Detected change in '/home/python/Desktop/ye/blog/info/model/user.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:34:21] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:34:21] "GET /articles_list?page=1&per_page=14 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:34:21] "GET /static/images/newsbg04.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:34:21] "GET /static/images/newsbg02.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:34:21] "GET /static/images/newsbg01.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:34:22] "GET /info/149 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:34:22] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:34:22] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:35:49] "GET /info/149 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:35:49] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:35:49] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:36:03] "GET /info/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:36:03] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:36:03] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 299-496-618
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:42] "GET /info/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:43] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:43] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:45] "GET /info/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:45] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:45] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:46] "GET /info/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:46] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:46] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:47] "GET /info/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:47] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [10/Jun/2019 22:40:47] "GET /e/public/ViewClick/?classid=5&id=816&addclick=1 HTTP/1.1" 404 -
