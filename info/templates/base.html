@@ -105,16 +105,6 @@ window.onload = function ()
           {% endfor %}
       </ul>
     </div>
-    <div class="paihang">
-      <h2 class="hometitle">站长推荐</h2>
-      <ul>
-          {% for r_articles_dict in data.recommend_articles_list %}
-             <li><b><a href="/list/{{ r_articles_dict.id }}" target="_blank">{{ r_articles_dict.title }}</a></b>
-                <p><i><img src="{{ r_articles_dict.index_image_url }}"></i>{{ r_articles_dict.digest }}</p>
-             </li>
-          {% endfor %}
-      </ul>
-    </div>
     <div class="links">
       <h2 class="hometitle">友情链接</h2>
       <ul>

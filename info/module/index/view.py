@@ -1,13 +1,13 @@
 from . import index_blu
 from flask import render_template, redirect, session, current_app
 from flask import url_for, request, jsonify, current_app, g
-from info.model.user import BlogCustomer, Articles, BlogAuthor, Category
+from info.model.user import BlogCustomer, Articles, BlogAuthor, Category, Comment
 from info.utils import constants, recode
 from common import user_login_data
+from info import db
 
 
-
-@index_blu.route('/index')
+@index_blu.route('/')
 @user_login_data
 def index():
     blog_customer = g.blog_customer
@@ -89,18 +89,20 @@ def get_articles_list():
     return jsonify(errno=recode.OK, errmsg='OK', total_Page=total_page, current_Page=current_page, articles_List=articles_list)
 
 
-@index_blu.route('/info/<int:new_id>')
+@index_blu.route('/info/<int:articles_id>')
 @user_login_data
-def news_detail(new_id):
+def articles_detail(articles_id):
     blog_customer = g.blog_customer
-    customer_info = {
-        'customer_id': blog_customer.id if blog_customer else None,
-        'nick_name': blog_customer.nick_name if blog_customer else None,
-        'avatar_url': blog_customer.avatar_url if blog_customer else None
-    }
+    customer_info = None
+    if blog_customer:
+        customer_info = {
+            'customer_id': blog_customer.id if blog_customer else None,
+            'nick_name': blog_customer.nick_name if blog_customer else None,
+            'avatar_url': blog_customer.avatar_url if blog_customer else None
+        }
     # 查询出详情数据
     try:
-        article = Articles.query.filter_by(id=new_id).scalar()
+        article = Articles.query.filter_by(id=articles_id).scalar()
     except Exception as e:
         return jsonify(errno=recode.DBERR, errmsg='数据查询失败')
     # 根据user_id查询出作者
@@ -108,6 +110,27 @@ def news_detail(new_id):
         blog_customer = BlogCustomer.query.filter_by(id=article.user_id).scalar()
     except Exception as e:
         return jsonify(errno=recode.DBERR, errmsg='数据查询失败')
+
+
+    # 上一条数据
+    last_id = article.id - 1
+    last_article = None
+    try:
+        last_article = Articles.query.filter_by(id=last_id).scalar()
+        if not last_article:
+            last_id = None
+    except Exception:
+        last_id = None
+
+    # 下一条数据
+    next_id = article.id + 1
+    next_article = None
+    try:
+        next_article = Articles.query.filter_by(id=next_id).scalar()
+        if not next_article:
+            next_id = None
+    except Exception:
+        next_id = None
 
     article_dict = {
         'id': article.id,
@@ -118,11 +141,25 @@ def news_detail(new_id):
         'clicks': article.clicks,
         'tag': article.tag,
         'digest': article.digest,
-        'content': article.content
+        'content': article.content,
+        'last_id': last_id,
+        'last_title': last_article.title if last_id else None,
+        'next_id': next_id,
+        'next_title': next_article.title if next_id else None
     }
 
+    # # 获取当前新闻的评论
+    # comments = []
+    # try:
+    #     comments = Comment.query.filter(Comment.articles_id==articles_id).order_by(Comment.like_count.desc(), Comment.create_time.desc()).all()
+    # except Exception as e:
+    #     current_app.logger.error(e)
+    # comment_list = []
+    # pass
+
+
     data = public()
-    data['user_info'] = customer_info if customer_info else None
+    data['customer_info'] = customer_info if customer_info else None
     data['article_dict'] = article_dict
     return render_template('info.html', data=data)
 
@@ -202,3 +239,55 @@ def public():
         'categories': categories_dicts_list
     }
     return data
+
+@index_blu.route('/articles_comment', methods=['POST'])
+@user_login_data
+def add_articles_comment():
+    """添加评论"""
+
+    blog_customer = g.blog_customer
+    if not  blog_customer:
+        return jsonify(errno=recode.SESSIONERR, errmsg='用户未登录')
+
+    # 获取数据
+    data_dict = request.json
+    articles_id = data_dict.get('articles_id')
+    comment_str = data_dict.get('comment')
+    parent_id = data_dict.get('parent_id')
+
+    if not all([articles_id, comment_str]):
+        return jsonify(errno=recode.PARAMERR, errmsg='参数不足')
+
+    try:
+        articles = Articles.query.get(articles_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=recode.DBERR, errmsg='查询数据失败')
+
+    if not articles:
+        return jsonify(errno=recode.NODATA, errmsg='该文章不存在或被删除')
+
+    # 数据保存
+    comment = Comment()
+    comment.user_id = blog_customer.id
+    comment.articles_id = articles_id
+    comment.content = comment_str
+    if parent_id:
+        comment.parent_id = parent_id
+
+    # 保存到数据库
+    try:
+        db.session.add(comment)
+        db.session.commit()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=recode.DBERR, errmsg='保存数据失败')
+
+    comment_dict = {
+        'comment_id': comment.id,
+        'comment_articlesid':comment.articles_id,
+        'comment_user': comment.user,
+        'comment_content': comment.user_id,
+        'comment_create_time': comment.create_time,
+    }
+    return jsonify(errno=recode.OK, errmsg='评论成功', data=comment_dict)

@@ -793,7 +793,7 @@ h3.blogtitle {
 
 /*????????*/
 .news_pl {
-    margin: 10px 0;
+    /*margin: 10px 0;*/
     width: 100%;
     background: #FFF;
     border-radius: 10px;
@@ -880,7 +880,7 @@ h3.blogtitle {
     margin: 10px auto 0;
 }
 
-..ab_box .avatar img {
+.ab_box .avatar img {
     width: 100px;
     height: 100px
 }
@@ -903,10 +903,9 @@ h3.blogtitle {
     padding: 0 0 0 10px;
     border-radius: 10px;
     border-top: 2px solid #e2e2e2;
-    text-shadow: #eae7e7 0px 0px 1px;
+    text-shadow: #eae7e7 0 0 1px;
 }
 
 .meandblog li a:hover {
     color: #000
 }
-

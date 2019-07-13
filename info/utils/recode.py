@@ -7,4 +7,5 @@ NODATA = '2004'  # 缺少数据
 DATAEXTST = '2005'  # 数据已存在
 USERERR = '2006'  # 用户不存在
 PWDERR = '2007'  # 密码错误
+SESSIONERR = '2008'  # 用户未登录
 OK = 0  # 成功

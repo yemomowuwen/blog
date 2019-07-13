@@ -97,7 +97,7 @@ article {
 .topnav {
     float: left;
     overflow: hidden;
-    width: 1000px;
+    width: 800px;
     margin: 10px 0;
 }
 
@@ -335,9 +335,9 @@ h1.t_nav a {
 .login {
     overflow: hidden;
     float:right;
-    width: 90px;
+    width: 250px;
     margin-top: 10px;
-    margin-right: 0;
+    margin-right: 10px;
 }
 
 .user_btns {
@@ -355,7 +355,7 @@ h1.t_nav a {
     color: #39f;
 }
 
-.user_login {
+.user_login{
     height: 46px;
     overflow: hidden;
     display: block;
