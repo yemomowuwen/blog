@@ -17,7 +17,7 @@ itchat==1.2.32
 itsdangerous==1.1.0
 Jinja2==2.10.1
 macholib==1.11
-Mako==1.0.9
+Mako==1.2.2
 MarkupSafe==1.1.1
 pefile==2019.4.18
 Pillow==6.0.0
